@@ -187,7 +187,9 @@
     }
     .rychle_menu{
         text-align: left;
-
+    }
+    .rychle_menu p{
+        font-size: 19px;
     }
 }
 
