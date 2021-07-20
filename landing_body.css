@@ -32,9 +32,23 @@
 .headin_text{
     position: absolute;
     top:20%;
-    right:45%;
-    width: 37vw;
-
+    width: 825px;
+}
+@media screen and (min-width: 1846px) {
+    .headin_text{
+        right:45%;
+    }
+}
+@media screen and (max-width: 1845px) {
+    .headin_text{
+       left:45%;
+        width: 43vw;
+    }
+}
+@media screen and (max-width: 1590px) {
+    .headin_text{
+        right:10%;
+           }
 }
 .headin_text h1{
 
