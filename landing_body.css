@@ -34,7 +34,14 @@
     top:20%;
     width: 711px;
 }
-@media screen and (min-width: 1846px) {
+@media screen and (max-width: 1126px) {
+    .headin_text{
+        left:10%;
+        width: 400px;
+
+    }
+}
+@media screen and (min-width: 1800px) {
     .headin_text{
         right:45%;
 
@@ -44,7 +51,7 @@
 @media screen and (max-width: 1590px) {
     .headin_text{
         left:20%;
-           }
+                  }
 }
 @media screen and (max-width: 1845px) {
     .headin_text{
@@ -53,12 +60,11 @@
     }
 }
 .headin_text h1{
-
     height: 118px;
-    font-family: DM Sans;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 45px;
+    font-size: 41px;
     line-height: 59px;
     align-items: center;
     letter-spacing: 0.02em;
@@ -73,6 +79,16 @@
     font-size: 25px;
     line-height: 40px;
     color: #FFFFFF;
+}
+@media screen and (max-width: 1320px) {
+    .headin_text{
+        width: 600px;
+    }
+    .headin_text h1{
+        font-size: 35px;
+        line-height: 40px;
+
+    }
 }
 .main-picture{
     position: absolute;

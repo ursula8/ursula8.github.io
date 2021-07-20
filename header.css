@@ -6,9 +6,15 @@
     z-index: 4;
 
 }
-@media screen and (min-width: 1655px) {
+@media screen and (min-width: 1400px) {
     .header-container{
         width: 1100px;
+    }
+}
+
+@media screen and (min-width: 2080px) {
+    .header-container{
+        width: 1300px;
     }
 }
 .header-container{
@@ -17,7 +23,7 @@
     text-align: center;
 
 }
-@media screen and (max-width: 1754px) {
+@media screen and (max-width: 1400px) {
     .header-container{
         width: 80vw;
     }
@@ -125,7 +131,7 @@
 
 .prihlasenie {
     text-align: center;
-    margin: 7px 0 5px 7px;
+    margin: 10px 0 5px 7px;
     left: 0;
 }
 .prihlasenie p{
