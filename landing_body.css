@@ -92,7 +92,7 @@
 }
 .arrow{
     position: absolute;
-    bottom: 20%;
+    bottom: 1vh;
     left: 45%;
     justify-content: center;
     text-align: center;
@@ -117,16 +117,20 @@
     font-size:40px;
     text-align: center;
 }
+.sluzby{
+    margin-top: 150px;
+}
 .sluzby-container{
     position: relative;
-    width: 70vw;
-    margin: 0 auto;
+    width: 1350px;
+    margin: 0 auto ;
     z-index: 1;
+    text-align: center;
 }
 .left-column{
     position: relative;
     display: inline-block;
-    width: 35vw;
+    width: 655px;
     box-sizing: border-box;
     margin: 0;
     text-align: center;
@@ -147,7 +151,7 @@
 .right-column{
     position: relative;
     display: inline-block;
-    width: 34.5vw;
+    width: 675px;
     box-sizing: border-box;
     margin: 0;
     vertical-align: middle;
@@ -163,8 +167,10 @@
     letter-spacing: 0.05em;
     color: #6DBEE7;
     position: absolute;
-    top:-200px;
-     width: 100%;
+    top:-150px;
+    width: 100%;
+    margin: 25px 0 35px;
+
 }
 .right-column h1 hr{
     width:40%;
@@ -176,6 +182,7 @@
 }
 .zoznam {
     position: relative;
+
 }
 .zoznam tr td{
     width: 360px;
@@ -340,6 +347,7 @@
 @media screen and (min-width:1126px) and (max-width: 1320px) {
     .headin_text{
         width: 600px;
+        left: 10%;
     }
     .headin_text h1{
         font-size: 35px;
@@ -350,12 +358,40 @@
 }
 @media screen and (min-width:1320px) and (max-width: 1590px)  {
     .headin_text{
-        left:20%;
+        left:10%;
     }
+
 }
-@media screen and (max-width: 1845px) {
+@media screen and (min-width: 1590px) and (max-width: 1845px) {
     .headin_text{
         left:10%;
 
     }
 }
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .sluzby-container{
+        width: 100%;
+    }
+    .left-column h1{
+        font-size:30px;
+    }
+    .left-column{
+        width: 530px;
+    }
+    .zoznam tr td {
+        font-size: 17px;
+    }
+    .right-column{
+        width: 530px;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
+    .right-column{
+        width: 610px;
+    }
+    .left-column{
+        width: 600px;
+    }
+}
+
+
