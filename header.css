@@ -1,0 +1,157 @@
+
+.header{
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    z-index: 4;
+
+}
+.header-container{
+    height: 80px;
+    width: 60vw;
+    margin: 0 auto;
+
+}
+.main_menu{
+    display: inline-block;
+    margin: 0 20px;
+    min-width: 400px;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-right: 50px;
+    margin-top: 1%;
+}
+.logo img{
+    width: 7.2vw;
+}
+.prihlasenie{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 10px 0 10px 35px;
+}
+.menu-item {
+    position: relative;
+    display: inline-block;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    width: 8.5vw;
+    min-width: 90px;
+    text-align: center;
+    margin-top:25px;
+   }
+
+.menu-item a{
+    color:  #585858;
+    text-decoration: none;
+}
+
+.menu-item span{
+    color:  #585858;
+    vertical-align: bottom;
+}
+.menu-idem1:hover {
+    animation:tada;
+    animation-duration: 0.8s;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.1);
+    width: 170px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.menu-item:hover .menu-idem1 a {
+    color:#D075B9;
+    rotation: 5deg;
+    transition: all 0.1s;
+
+}
+.menu-item:hover .menu-idem1 span {
+    color: #D075B9;
+    rotation: 180deg;
+    transition: all 0.1s;
+}
+.menu-item:hover .dropdown{
+    display: block;
+    }
+
+
+.dropdown a {
+    display: block;
+    color:  #585858;
+    opacity: 80%;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    transition: all 0.4s ;
+
+
+}
+.dropdown a:hover {
+    opacity: 100%;
+    font-size:18px;
+    font-weight: 500;
+
+}
+
+.prihlasenie {
+    text-align: center;
+    margin: 10px 0 5px 35px;
+    left: 0;
+}
+.prihlasenie p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size:0.9em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #585858;
+    margin: 0.2em;
+
+}
+.prihlasenie button {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+
+    color: #53B2E3;
+    width: 9vw;
+    max-width:150px ;
+    min-width: 80px;
+    height: 3.5vh;
+    max-height: 39px;
+    min-height: 28px;
+    border: 2px solid #53B2E3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background:none;
+}
+.login a{
+    color: #53B2E3;
+    text-decoration: none;
+}
+
+.prihlasenie button:hover {
+    background-color: #53B2E3;
+}
+.prihlasenie button:hover a{
+    color: white;
+}
+

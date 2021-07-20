@@ -1,0 +1,313 @@
+.static-slider{
+   width:100vw ;
+ }
+.bckg-container{
+    position: relative;
+    height: 100vh;
+    min-height: 1100px;
+}
+.blue-blob{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    z-index: 0;
+    overflow: hidden;
+    min-height: 879px;
+
+}
+.pink-blob{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100vw;
+    z-index: 0;
+    overflow: hidden;
+    top:-130px;
+
+
+}
+.headin_text{
+    position: absolute;
+    top:20%;
+    right:45%;
+    width: 37vw;
+
+}
+.headin_text h1{
+
+    height: 118px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 59px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #2AA6DF;
+}
+.headin_text h2{
+
+    font-family: Poppins;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.main-picture{
+    position: absolute;
+     z-index: 0.9;
+    top: 10%;
+    left: 45%;
+
+
+}
+.main-picture img{
+    width: 110%;
+
+}
+
+.objednavka-but{
+    transition: all 0.2s ease-in-out;
+    font-family:"Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 23px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #D075B9;
+    border-radius: 23px;
+    border: none;
+    padding: 8px 30px;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+
+}
+.objednavka-but:hover{
+    background: #DC8AC7;
+    border-radius: 27px;
+}
+.arrow{
+    position: absolute;
+    top: 73%;
+    left: 45%;
+    justify-content: center;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-animation: bounce 2s infinite;
+    z-index:1;
+    color: #A1DDF3;
+
+}
+.arrow p{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+    margin: 5px;
+    letter-spacing: 0.04em;
+
+}
+.arrow span{
+    font-size:40px;
+    text-align: center;
+}
+.sluzby-container{
+    position: relative;
+    width: 70vw;
+    margin: 0 auto;
+    z-index: 1;
+}
+.left-column{
+    position: relative;
+    display: inline-block;
+    width: 35vw;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    padding:0 7vw 0 0 ;
+    left: 0;
+
+}
+.left-column h1{
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 167%;
+    text-align: center;
+    color: #2AA6DF;
+}
+.right-column{
+    position: relative;
+    display: inline-block;
+    width: 34.5vw;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: middle;
+
+}
+.right-column h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #6DBEE7;
+    position: absolute;
+    top:-200px;
+     width: 100%;
+}
+.right-column h1 hr{
+    width:40%;
+    height:4px;
+    margin:10px auto;
+    background-color:#6DBEE7;
+    border: 0;
+    display: block;
+}
+.zoznam {
+    position: relative;
+}
+.zoznam tr td{
+    width: 360px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #585858;
+
+}
+.zoznam tr :first-child{
+
+    position: relative;
+    left: 0;
+}
+.zoznam tr :last-child{
+    position: relative;
+    right: 0;
+
+}
+.zoznam tr td hr{
+    width:70%;
+    height:1px;
+    margin:5vh auto;
+    background-color:#8BCEED;
+    border: 0;
+    display: block;
+}
+.team-introduction{
+    width: 100vw;
+    min-height: 1100px;
+    position: relative;
+}
+.introduction-container{
+    position: absolute;
+    width: 70vw;
+    margin: 150px 0 0 ;
+    text-align: center;
+    left: 15%;
+
+}
+.introduction-container h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin:15px 0;
+
+}
+.image-contain{
+
+    position: relative;
+    width: 11vw;
+    height: 11vw;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.image-contain img{
+    width: auto;
+    height: 150%;
+    margin-left: -100px;
+}
+#person2 img{
+ margin-left: 0;
+}
+.person-holder{
+    display: inline-block;
+    position: relative;
+    min-width: 100px;
+    box-sizing: border-box;
+    margin:0 3vw;
+    text-align: center;
+    width: 11vw;
+}
+.personas{
+    margin-top: 7vh;
+}
+.person-holder h2{
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #B9529F;
+    padding: 0;
+    margin: 3vh 0 1vh;
+}
+.person-holder h3{
+    font-family: "Playfair Display",serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.06em;
+    padding: 0;
+    margin: 1vh 0 3vh;
+
+
+}
+.person-holder p{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #484848;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+.introduction-container h1 hr{
+    width:20%;
+    height:4px;
+    margin:10px auto;
+    background-color:white;
+    border: 0;
+    display: block;
+}
