@@ -6,19 +6,20 @@
     z-index: 4;
 
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1655px) {
     .header-container{
-        width: 60vw;
+        width: 1100px;
     }
 }
 .header-container{
     height: 70px;
     margin: 0 auto;
+    text-align: center;
 
 }
-@media screen and (max-width: 1720px) {
+@media screen and (max-width: 1754px) {
     .header-container{
-        width: 70vw;
+        width: 1000px;
     }
 }
 @media screen and (max-width: 1340px) {
@@ -31,6 +32,7 @@
     margin: 0 20px;
     min-width: 400px;
 }
+
 .logo{
     display: inline-block;
     position: relative;
