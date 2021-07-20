@@ -12,7 +12,7 @@
     }
 }
 .header-container{
-    height: 75px;
+    height: 70px;
     margin: 0 auto;
 
 }
@@ -35,10 +35,10 @@
     display: inline-block;
     position: relative;
     float: left;
-    margin:0 50px 0 0;
+    margin:10px 50px 0 0;
 }
 .logo img{
-    width: 140px;
+   height: 56px;
 }
 .prihlasenie{
     display: inline-block;
@@ -123,14 +123,14 @@
 
 .prihlasenie {
     text-align: center;
-    margin: 10px 0 5px 35px;
+    margin: 7px 0 5px 7px;
     left: 0;
 }
 .prihlasenie p{
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
-    font-size:0.9em;
+    font-size:14px;
     line-height: 1.5em;
     text-align: center;
     color: #585858;
@@ -145,7 +145,7 @@
     letter-spacing: 0.05em;
     color: #53B2E3;
     width:150px;
-    height: 35px;
+    height: 30px;
     border: 2px solid #53B2E3;
     box-sizing: border-box;
     border-radius: 20px;
