@@ -3,19 +3,18 @@
  }
 .bckg-container{
     position: relative;
-    height: 100vh;
-    min-height: 1100px;
+    height: 90vh;
+
 }
 .blue-blob{
 
     margin: 0;
     padding: 0;
     position: absolute;
-    height: 90vh;
+    height: 90%;
     width: 100vw;
     z-index: 0;
     overflow: hidden;
-    min-height: 879px;
 
 }
 .pink-blob{
@@ -34,32 +33,8 @@
     top:20%;
     width: 711px;
 }
-
-@media screen and (min-width: 1800px) {
-    .headin_text{
-        right:45%;
-
-    }
-}
-@media screen and (max-width: 1126px) {
-    .headin_text{
-        left:10%;
-        width: 400px;
-    }
-}
-@media screen and (max-width: 1590px) {
-    .headin_text{
-        left:20%;
-                  }
-}
-@media screen and (max-width: 1845px) {
-    .headin_text{
-        left:10%;
-
-    }
-}
 .headin_text h1{
-    height: 118px;
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -69,6 +44,7 @@
     letter-spacing: 0.02em;
     color: #2AA6DF;
 }
+
 .headin_text h2{
 
     font-family: Poppins;
@@ -79,23 +55,13 @@
     line-height: 40px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 1320px) {
-    .headin_text{
-        width: 600px;
-    }
-    .headin_text h1{
-        font-size: 35px;
-        line-height: 40px;
 
-    }
-}
+
 .main-picture{
     position: absolute;
-     z-index: 0.9;
+    z-index: 0.9;
     top: 10%;
     left: 45%;
-
-
 }
 .main-picture img{
     width: 110%;
@@ -126,7 +92,7 @@
 }
 .arrow{
     position: absolute;
-    top: 73%;
+    bottom: 20%;
     left: 45%;
     justify-content: center;
     text-align: center;
@@ -341,4 +307,55 @@
     background-color:white;
     border: 0;
     display: block;
+}
+@media screen and (min-width: 1800px) {
+    .headin_text{
+        right:45%;
+
+    }
+}
+@media screen and (max-width: 1126px) {
+    .headin_text{
+        left:10%;
+        width: 470px;
+        top: 10%;
+    }
+    .headin_text h1{
+        font-size: 25px;
+        line-height: 40px;
+
+    }
+    .headin_text h2{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .main-picture{
+        position: absolute;
+        z-index: 0.9;
+        top: 5%;
+        left: 50%;
+    }
+
+}
+@media screen and (min-width:1126px) and (max-width: 1320px) {
+    .headin_text{
+        width: 600px;
+    }
+    .headin_text h1{
+        font-size: 35px;
+    }
+    .headin_text h2{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1320px) and (max-width: 1590px)  {
+    .headin_text{
+        left:20%;
+    }
+}
+@media screen and (max-width: 1845px) {
+    .headin_text{
+        left:10%;
+
+    }
 }
