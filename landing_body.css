@@ -32,7 +32,7 @@
 .headin_text{
     position: absolute;
     top:20%;
-    width: 825px;
+
 }
 @media screen and (min-width: 1846px) {
     .headin_text{
